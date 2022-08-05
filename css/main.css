@@ -17,7 +17,7 @@ main {
 
 .titulo {
     font-weight: 600;
-    margin-top: 80px;
+    margin-top: 50px;
     font-size: 110pt;
     color: white;
     font-family: 'Advent Pro', sans-serif;
@@ -75,4 +75,50 @@ main {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+@media screen and (max-width: 1400px){
+    main {
+        padding-top: 20px;
+    }
+    
+    .imagem_bolhas {
+        max-width: 130px;
+        max-height: auto;
+        margin-top: 30px;
+    }
+    
+    .titulo {
+        margin-top: 30px;
+        font-size: 80pt;
+       }
+    
+    
+    .image_backgroung {
+        max-width: 600px;
+        max-height: auto;
+        margin-right: 100px;
+    }
+    
+    .baixo_esquerda {
+        width: 60%;
+        margin-top: 25px;
+    }
+    
+    .texto_principal {
+        font-size: 35pt;
+    }
+    
+    .button_read {
+        margin-top: 30px;
+    }
+    
+    .baixo_direita {
+        margin-top: 37px;
+    }
+    
+    .image_background_baixo {
+        max-width: 400px;
+        max-height: auto;
+    }
 }

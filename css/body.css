@@ -7,3 +7,9 @@ body {
     background-image: url(../images/fundo2.png);
     margin: 110px 50px 0 140px;
 }
+
+@media screen and (max-width: 1400px){
+    body{
+        margin: 80px 40px 0 90px;
+    }
+}

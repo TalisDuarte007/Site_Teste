@@ -69,3 +69,58 @@ a{
     line-height: 50px;
     width: 0px;
 }
+
+@media screen and (max-width: 1400px){
+    .cabecalho{
+        height: 80px;
+    }
+    
+    .image_logo{
+        max-width: 140;
+        max-height: auto;
+    }
+
+    li:first-child{
+        margin-left: 0px;
+    }
+    
+    li{
+        margin-left: 30px;
+    }
+    
+    a{
+        font-size: 25pt;
+    }
+    
+    .buttons{
+        margin-right: 20px;
+    }
+    
+    .buttom{
+        max-width: 30px;
+        max-height: 30px;
+        margin-left: 10px;
+    }
+    
+    .search_box{
+        height: 20px;
+    }
+    
+    .search_box:hover > .search_txt{
+        width: 100px;
+        padding: 0, 6px;
+    }
+    
+    .search_txt{
+        border: 4px;
+        background: none;
+        outline: 4px;
+        float: left;
+        padding: 0;
+        color: white;
+        font-size: 16px;
+        transition: 0.5s;
+        line-height: 40px;
+        width: 0px;
+    }
+}
