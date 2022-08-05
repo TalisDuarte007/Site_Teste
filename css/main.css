@@ -1,0 +1,78 @@
+main {
+    padding-top: 30px;
+}
+
+.cima {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imagem_bolhas {
+    max-width: 180px;
+    max-height: auto;
+    margin-top: 60px;
+    padding-left: 30px;
+}
+
+.titulo {
+    font-weight: 600;
+    margin-top: 80px;
+    font-size: 110pt;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+
+.image_backgroung {
+    max-width: 850px;
+    max-height: auto;
+    margin-right: 200px;
+}
+
+.baixo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.baixo_esquerda {
+    width: 70%;
+    margin-top: 35px;
+}
+
+.texto_principal {
+    font-weight: 400;
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    font-size: 50pt;
+}
+
+.button_read {
+    margin-top: 20px;
+    background-color: #274611;
+    border: none;
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.button_read:hover{
+    font-size: 32px;
+    color: #142508;
+    color: whitesmoke;
+}
+
+.baixo_direita {
+    margin-top: 37px;
+}
+
+.image_background_baixo {
+    max-width: 450px;
+    max-height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

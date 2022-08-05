@@ -1,0 +1,71 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo{
+    padding-left: 30px;
+}
+
+.image_logo{
+    max-width: 240;
+    max-height: auto;
+}
+
+.options{
+    align-items: center;
+}
+
+li{
+    margin-left: 50px;
+}
+
+a{
+    font-size: 30pt;
+    text-decoration: none;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons{
+    display: flex;
+    width: 200px;
+    justify-content: flex-end;
+    margin-right: 150px;
+}
+
+.buttom{
+    max-width: 30px;
+    max-height: 30px;
+    margin-left: 30px;
+}
+
+.search_box{
+    height: 40px;
+}
+
+.search_box:hover > .search_txt{
+    width: 80px;
+    padding: 0, 6px;
+}
+
+.search_txt{
+    border: 4px;
+    background: none;
+    outline: 4px;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+    line-height: 50px;
+    width: 0px;
+}
