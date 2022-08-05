@@ -77,20 +77,18 @@ main {
     right: 0;
 }
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1300px){
     main {
         padding-top: 20px;
     }
     
     .imagem_bolhas {
-        max-width: 130px;
-        max-height: auto;
-        margin-top: 30px;
+        margin-top: 20px;
     }
     
     .titulo {
         margin-top: 30px;
-        font-size: 80pt;
+        font-size: 45pt;
        }
     
     
@@ -106,7 +104,7 @@ main {
     }
     
     .texto_principal {
-        font-size: 35pt;
+        font-size: 30pt;
     }
     
     .button_read {
@@ -118,7 +116,7 @@ main {
     }
     
     .image_background_baixo {
-        max-width: 400px;
+        max-width: 350px;
         max-height: auto;
     }
 }
